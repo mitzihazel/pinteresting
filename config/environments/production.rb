@@ -78,7 +78,7 @@ Rails.application.configure do
 
   # required for Heroku
   # note to set this to your actual host
-  config.action_mailer.default_url_options = { :host => 'mky-pinteresting.com' }
+  config.action_mailer.default_url_options = { :host => 'morning-forest-7735.com' }
 
   #sets images to amazon
     config.paperclip_defaults = {
