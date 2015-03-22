@@ -13,12 +13,12 @@ gem 'devise', '~> 3.4.1'
 gem 'paperclip', '~> 3.0'
 
 
-
 group :development do
   gem 'sqlite3'
 end
 
 group :production do
+	gem 'pg'
 	gem 'rails_12factor'
 end
 

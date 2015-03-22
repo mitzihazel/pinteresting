@@ -25,6 +25,8 @@ ActiveRecord::Schema.define(version: 20150322031835) do
   end
 
   add_index "pins", ["user_id"], name: "index_pins_on_user_id"
+=======
+ActiveRecord::Schema.define(version: 20150308082242) do
 
   create_table "users", force: true do |t|
     t.string   "email",                  default: "", null: false
